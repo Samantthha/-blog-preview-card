@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --primaryyellow: hsl(47, 88%, 63%);
+  --NeutralWhite: hsl(0, 0%, 100%);
+  --NeutralGrey: hsl(0, 0%, 50%);
+  --NeutralBlack: hsl(0, 0%, 7%);
+}
+
+body {
+  background-color: var(--primaryyellow);
+  font-family: "Figtree", sans-serif;
+}
+
+.Parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  background-color: var(--NeutralWhite);
+  min-height: 350px;
+  width: 350px;
+  border-radius: 15px;
+  border: 2px var(--NeutralBlack) solid;
+  padding: 20px;
+}
+
+.box span {
+  background-color: var(--primaryyellow);
+  padding: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.p1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 13px;
+}
+
+.p2 {
+  color: var(--NeutralGrey);
+  padding-top: 30px;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 50px;
+}
+
+.Profile p {
+  font-weight: bold;
+}
+
+.Profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.bg-image {
+  background-image: url("./assets/images/illustration-article.svg");
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
